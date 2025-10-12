@@ -1,0 +1,11 @@
+{
+  "ExternalRiskEstimate": 70,
+  "MSinceOldestTradeOpen": 200,
+  "MSinceMostRecentTradeOpen": 12,
+  "NumSatisfactoryTrades": 10,
+  "NumTrades60Ever2DerogPubRec": 0,
+  "NumTrades90Ever2DerogPubRec": 0,
+  "PercentTradesNeverDelq": 95,
+  "MaxDelq2PublicRecLast12M": 0,
+  "MaxDelqEver": 1
+}
