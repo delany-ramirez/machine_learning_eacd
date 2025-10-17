@@ -37,15 +37,18 @@ curso-ml-heloc/
 > Nota: se asume competencia previa en **limpieza de datos** (curso anterior de minería de datos).
 
 ## Dataset de caso de estudio
-- **HELOC — FICO Data Science Challenge**.  
+- **HELOC — FICO Data Science Challenge**. (https://huggingface.co/datasets/mstz/heloc) 
 - Objetivo: `RiskPerformance` (Good/Bad). Úsalo como **binaria** (clasificación) o derivando un **score** (regresión).
 
 ## Instalación (local)
 ```bash
 # 1) Clonar / crear el repo y entrar
-# git clone https://github.com/<tu-usuario>/curso-ml-heloc.git
+# git clone https://github.com/delany-ramirez/curso-ml-heloc.git
 cd curso-ml-heloc
+```
+A continuación se muestra un ejemplo de crear e instalar las librerías necesarias en un nuevo ambiente, sin embargo, puede utilizar otros gestores de ambientes si lo desea.
 
+```bash
 # 2) Crear entorno e instalar dependencias
 python -m venv .venv
 source .venv/bin/activate  # (Windows) .venv\Scripts\activate
