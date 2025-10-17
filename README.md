@@ -2,7 +2,7 @@
 # Especialización en Analítica y Ciencia de Datos Aplicada
 
 
-Repositorio del curso intensivo de **Machine Learning** basado en el dataset **HELOC (Home Equity Line of Credit)**.
+Repositorio del curso intensivo de **Machine Learning para Modelos de Predicción**.
 Incluye el **programa**, **talleres semanales** y **recursos** para que los estudiantes trabajen un proyecto integral
 de predicción de riesgo crediticio.
 
@@ -30,9 +30,31 @@ curso-ml-heloc/
 
 ## Programa del curso (resumen)
 - **Semana 1**: Intro ML, ciclo de vida, fundamentos (álgebra, cálculo, probabilidad), *ingeniería de características*, **PCA** y **T-Sne**.  
+   -	Introducción al Aprendizaje Automático y ciclo de vida de un proyecto de ML
+   -	Tipos de aprendizaje: supervisado, no supervisado y reforzado
+   -	Herramientas del ecosistema Python para ML
+   -	Fundamentos matemáticos aplicados al ML (álgebra lineal, cálculo y probabilidad)
+   -	Ingeniería de características y reducción de dimensionalidad (PCA, t-SNE)
+
 - **Semana 2**: **Regresión** (lineal, Ridge, Lasso), **validación cruzada** y métricas.  
+   - Modelos de regresión lineal y regularizada (Ridge, Lasso)
+   - Modelos de clasificación: Regresión Logística, K-Nearest Neighbors, Support Vector Machines, Árboles de Decisión
+   - Validación cruzada y selección de modelos
+   - Evaluación de desempeño en regresión y clasificación (MAE, MSE, R², Accuracy, Recall, F1, AUC-ROC)
+
+
 - **Semana 3**: **Clasificación** (Logística, KNN, SVM, Árboles), **Ensembles** (Random Fores, Gradient Boosting), **búsqueda de hiperparámetros**.  
+   - Ensemble Learning: Bagging, Random Forest y Gradient Boosting
+   - Optimización de hiperparámetros (GridSearchCV, RandomizedSearchCV)
+   - Comparación y selección de modelos óptimos
+   - Interpretación y comunicación de resultados
+
 - **Semana 4**: **Clustering** (K-Means, DBSCAN, Agrupamiento jerárquico), **despliegue** (FastAPI), **MLflow**, **proyecto final**.
+   - Algoritmos de clustering: K-Means, DBSCAN y Jerárquico
+   - Evaluación y visualización de clusters (Silhouette Score, Inertia)
+   - Despliegue de modelos mediante API (Flask o FastAPI)
+   - Tracking y versionamiento de modelos con MLflow
+   - Proyecto final: desarrollo de un pipeline completo sobre el dataset HELOC
 
 > Nota: se asume competencia previa en **limpieza de datos** (curso anterior de minería de datos).
 
