@@ -15,7 +15,6 @@ venv/
 .jupyter/
 
 # Data & artifacts
-data/*
 !data/.gitkeep
 mlruns/
 artifacts/
