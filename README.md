@@ -66,7 +66,7 @@ curso-ml-heloc/
 ```bash
 # 1) Clonar / crear el repo y entrar
 # git clone https://github.com/delany-ramirez/machine_learning_eacd.git
-cd curso-ml-heloc
+cd machine_learning_eacd
 ```
 A continuación se muestra un ejemplo de crear e instalar las librerías necesarias en un nuevo ambiente, sin embargo, puede utilizar otros gestores de ambientes si lo desea.
 
